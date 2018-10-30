@@ -1,0 +1,53 @@
+In this file examples of different vehicle models can be found.
+
+% Vehicle model constants: Land Rover Defender (delMax=deg2rad(35))
+l=2.794; %Inter-axis distance
+vl=4.639; %Vehicle length
+vw=1.79; %Vehicle width
+ve=1.2; %Distance from vehicle back bumper to back axis
+vcol=0.1; %Minimum distance between points on the perimeter of the vehicle used to check for collisions
+ta=2; %Time constant of the acceleration actuator
+td=2; %Time constant of the steering actuator
+wd=0.7; %Wheel diameter in meters
+ww=0.2; %Wheel width in meters
+obsMargin=0.1; %Minimum margin to maintain at all times between the vehicle and obstacles both in x and y directions
+dims=[l,vl,vw,ve,vcol,ta,td,wd,ww,obsMargin].'; %Group the model parameters into an array
+
+% Vehicle model constants: SMART ForTwo (delMax=deg2rad(35))
+l=1.873; %Inter-axis distance
+vl=2.695; %Vehicle length
+vw=1.663; %Vehicle width
+ve=0.42; %Distance from vehicle back bumper to back axis
+vcol=0.1; %Minimum distance between points on the perimeter of the vehicle used to check for collisions
+ta=2; %Time constant of the acceleration actuator
+td=2; %Time constant of the steering actuator
+wd=0.381; %Wheel diameter in meters
+ww=0.15; %Wheel width in meters
+obsMargin=0.1; %Minimum margin to maintain at all times between the vehicle and obstacles both in x and y directions
+dims=[l,vl,vw,ve,vcol,ta,td,wd,ww,obsMargin].'; %Group the model parameters into an array
+
+% Vehicle model constants: SEAT Ibiza (delMax=deg2rad(37))
+l=2.564; %Inter-axis distance
+vl=4.059; %Vehicle length
+vw=1.942; %Vehicle width (including rear view mirrors)
+ve=0.699; %Distance from vehicle back bumper to back axis
+vcol=0.1; %Minimum distance between points on the perimeter of the vehicle used to check for collisions
+ta=2; %Time constant of the acceleration actuator
+td=2; %Time constant of the steering actuator
+wd=0.6; %Wheel diameter in meters
+ww=0.2; %Wheel width in meters
+obsMargin=0.1; %Minimum margin to maintain at all times between the vehicle and obstacles both in x and y directions
+dims=[l,vl,vw,ve,vcol,ta,td,wd,ww,obsMargin].'; %Group the model parameters into an array
+
+% Vehicle model constants: SEAT Leon
+l=2.636; %Inter-axis distance
+vl=4.263; %Vehicle length
+vw=1.975; %Vehicle width
+ve=0.785; %Distance from vehicle back bumper to back axis
+vcol=0.1; %Minimum distance between points on the perimeter of the vehicle used to check for collisions
+ta=2; %Time constant of the acceleration actuator
+td=2; %Time constant of the steering actuator
+wd=0.6; %Wheel diameter in meters
+ww=0.2; %Wheel width in meters
+obsMargin=0.1; %Minimum margin to maintain at all times between the vehicle and obstacles both in x and y directions
+dims=[l,vl,vw,ve,vcol,ta,td,wd,ww,obsMargin].'; %Group the model parameters into an array
